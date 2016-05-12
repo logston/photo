@@ -1,0 +1,38 @@
+*
+{
+    margin:0;padding:0;
+}
+
+html {
+  height: 100%;
+}
+
+li {
+    display: table-cell;
+}
+
+img
+{
+    width: auto;
+    max-width: auto;
+    height: 100vw;
+    max-height: 100vh;
+    margin: auto;
+    margin-right: 5px;
+}
+
+.images {
+  overflow-x: scroll;
+}
+
+a#logo {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+a img {
+  height: 1.5em;
+  width: 1.5em;
+  opacity: 0.5;
+}
